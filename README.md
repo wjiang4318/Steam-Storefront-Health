@@ -6,7 +6,7 @@ A Databricks medallion pipeline (bronze → silver → gold star schema) over 99
 
 **The finding:** Sales rank is the wrong guide to game success. Among the top 40 sellers in each genre, games land above and below the satisfaction average in roughly equal numbers. Steam ranks games within six genres by sales, revenue, and reviews. Even among games that made one of those top 10 lists, 18 scored below the 81% catalogue average, mostly in Action, Simulation, and Sports & Racing. Steam's review labels are the better guide, closely matching review sentiment. Meanwhile, overall recommendation rates have fallen 22 points since 2013. The suggestion: promote on sentiment, not rank.
  
-![Dashboard](steam_analytics/images/steam_analytics_powerbi_dashboard.png)
+![Dashboard](steam_analytics/images/steam_analytics_dashboard.png)
 
 
 ## Data
