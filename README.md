@@ -3,8 +3,8 @@
 A Databricks medallion pipeline (bronze → silver → gold star schema) over 991K Steam reviews, feeding a Power BI dashboard on storefront health.
 
 **The brief:** As a Steam executive, understanding the health of the storefront and its reputation with players is important. Using historical data, 991K player reviews across 286 games, plus genre sales leaderboards and Steam's own review labels, surface which games the storefront should promote, which top sellers are quietly hurting player trust, and how satisfaction has moved over time.
- 
-**The finding:** Using sales as a metric for game success is the wrong guide. Top sellers land above and below the satisfaction average in roughly equal numbers, and 18 games ranked in a genre's top 10 scored below the 81% catalogue average — spread across Action, Simulation, and Sports & Racing. Review labels are the better guide, matching review sentiment closely. Meanwhile overall recommendation rates have fallen 22 points since 2013. The suggestion: promote on sentiment, not rank.
+
+**The finding:** Sales rank is the wrong guide to game success. Among the top 40 sellers in each genre, games land above and below the satisfaction average in roughly equal numbers. Even at the very top, 18 games ranked in the top 10 for sales, revenue, or reviews across six genres scored below the 81% catalogue average, mostly in Action, Simulation, and Sports & Racing. Steam's review labels are the better guide, closely matching review sentiment. Meanwhile, overall recommendation rates have fallen 22 points since 2013. The suggestion: promote on sentiment, not rank.
 
  
 ![Dashboard](steam_analytics/images/steam_analytics_powerbi_dashboard.png)
